@@ -9,15 +9,15 @@
 }
 
 body{
-    width:100vw;
-    height:100vh;
+    width:98vw;
+    height:400vh;
     background-color: var(--color-dark);
     color: var(--font-light);
     font-family:sans-serif;
 }
 
 #main-title {
-    border: white solid 2px;
+    /* border: white solid 2px; */
     font-size: 5rem;
     font-weight: 200;
     letter-spacing: -0.05em;
@@ -25,20 +25,13 @@ body{
     padding-top: 2rem;
 }
 #hello{
-    border : 2px solid yellow;
     display: inline;
-    height: 100%;
 }
 
 #div1 p {
-    border: 2px greenyellow solid;
+    /* border: 2px greenyellow solid; */
     color: grey;
     text-align: center;
-}
-
-main img {
-    border : 2px solid lightskyblue;
-    
 }
 
 /* the div2 or the folders container*/
@@ -46,14 +39,23 @@ main img {
     /* display:flex; */
     /* justify-content: center; */
     border : 2px solid pink;
-    height: 100%;
     width: 100%;
 }
 
 #inner-div2{
+    display:flex;
+
     border : 2px solid red;
     padding-top: 2rem;
-    height: 100%;
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
 }
+
+/* cards */
+
+.cards{
+    border : 2px solid yellow;
+    width: 20%;
+    text-align:center;
+}
+/* cards-end */
