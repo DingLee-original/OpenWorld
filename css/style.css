@@ -30,6 +30,12 @@ body{
     height: 100%;
 }
 
+#div1 p {
+    border: 2px greenyellow solid;
+    color: grey;
+    text-align: center;
+}
+
 main img {
     border : 2px solid lightskyblue;
     
@@ -37,13 +43,17 @@ main img {
 
 /* the div2 or the folders container*/
 #div2{
+    /* display:flex; */
+    /* justify-content: center; */
     border : 2px solid pink;
     height: 100%;
     width: 100%;
 }
 
-#div3{
+#inner-div2{
     border : 2px solid red;
-    height: 80%;
+    padding-top: 2rem;
+    height: 100%;
     width: 80%;
+    margin: 0 auto;
 }
