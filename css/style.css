@@ -1,8 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
 *{
     padding:0px;
     margin:0px;
     box-sizing: border-box;
 }
+
 :root{
     --color-dark: #333;
     --font-light: #f5f5f5;
@@ -19,20 +24,23 @@ body{
 #main-title {
     /* border: white solid 2px; */
     font-size: 5rem;
-    font-weight: 200;
     letter-spacing: -0.05em;
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 5rem;
 }
 
 #hello{
-    display: inline;
+
+    font-family: "Press Start 2P", system-ui;
+    font-style: normal;
+
 }
 
 #div1 p {
     /* border: 2px greenyellow solid; */
     color: grey;
     text-align: center;
+    font-family: "Press Start 2P", system-ui;
 }
 
 /* the div2 or the folders container*/
@@ -70,5 +78,8 @@ body{
     /* border : 2px solid yellow; */
     width: 20%;
     text-align:center;
+
+    font-family: system-ui;
+    color: rgb(99, 98, 98)
 }
 /* cards-end */
