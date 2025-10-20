@@ -82,22 +82,6 @@ body{
     color: rgb(99, 98, 98)
 }
 
-/* add smooth transitions */
-.cards img {
-    transition: transform 0.2s ease, filter 0.2s ease;
-}
 
-/* image hover (no nested rules) */
-.cards img:hover {
-    transform: scale(1.05);
-    filter: brightness(1.05);
-    cursor: pointer;
-}
-
-/* change h4 color to green when hovering the image or anywhere on the card */
-.cards:hover h4 {
-    color: green;
-    transition: color 0.15s ease;
-}
 
 /* cards-end */
