@@ -1,6 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
 
 *{
     padding:0px;
@@ -15,7 +14,7 @@
 
 body{
     width:98vw;
-    height:400vh;
+    height:150vh;
     background-color: var(--color-dark);
     color: var(--font-light);
     /* font-family:sans-serif; */
@@ -79,7 +78,26 @@ body{
     width: 20%;
     text-align:center;
 
-    font-family: system-ui;
+    font-family: "Press Start 2P",system-ui;
     color: rgb(99, 98, 98)
 }
+
+/* add smooth transitions */
+.cards img {
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+/* image hover (no nested rules) */
+.cards img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.05);
+    cursor: pointer;
+}
+
+/* change h4 color to green when hovering the image or anywhere on the card */
+.cards:hover h4 {
+    color: green;
+    transition: color 0.15s ease;
+}
+
 /* cards-end */
