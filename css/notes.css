@@ -21,8 +21,11 @@ body{
 
 .header{
     /* border : 2px solid green; */
-    padding-top: 4rem;
+    padding-top: 6rem;
     text-align: center;
+    font-size: x-large;
+    color:rgb(227, 224, 182);
+    color:rgba(227, 224, 182, 0.8)
 }
 
 
@@ -65,7 +68,8 @@ main {
 }
 
 .blog-date{
-    padding: 0.5rem;
+    text-align: end;
+    padding: 0rem;
     color:grey;
 }
 
